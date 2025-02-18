@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB (update the URI if using MongoDB Atlas)
-mongoose.connect('mongodb://localhost:27017/feedbackApp', {
+mongoose.connect('mongodb+srv://srinu202012:<db_password>@cluster0.kkgt5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
