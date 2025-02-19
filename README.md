@@ -32,7 +32,7 @@ Before running this project, ensure you have the following installed:
 
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/YOUR_USERNAME/feedback-backend.git
+git clone https://github.com/LSG-hub/feedback-backend.git
 cd feedback-backend
 ```
 
