@@ -10,8 +10,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Connect to MongoDB (update the URI if using MongoDB Atlas)
-mongoose.connect('mongodb+srv://srinu202012:XUOlRcF4SPv98kxj@cluster0.kkgt5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+// Connect to MongoDB (Replace <USERNAME> and <PASSWORD> with your actual MondoDB Atlas Credentials)
+mongoose.connect('mongodb+srv://<USERNAME>:<PASSWORD>@cluster0.kkgt5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
